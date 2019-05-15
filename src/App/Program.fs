@@ -2,7 +2,9 @@
 
 open System
 
+open Library
+
 [<EntryPoint>]
 let main argv =
-    printfn "Hello World from F#!"
+    hello "Robert"
     0 // return an integer exit code

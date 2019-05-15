@@ -1,7 +1,4 @@
-﻿namespace Library
+﻿module Library
 
-open FSharp.Data
-
-module Say =
-    let hello name =
-        printfn "Hello %s" name
+let hello name =
+    printfn "Hello %s" name
